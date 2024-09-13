@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <title>kota</title>
+</head>
+
+<body>
+
+
+
+    <!-- topbar section start -->
+
+    <div class="topbar-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-2 d-flex justify-content-center justify-content-lg-start">
+                    <div class="topbar-logo">
+                        <img src="assets/images/logo/logo.png" alt="Logo">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="tel:703-622-6861">703-622-6861</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="mailto:huiosensei@gmail.com">huiosensei@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="topbar-address d-flex justify-content-center justify-content-lg-end align-items-center">
+                        <div class="topbar-link-icon">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                        <div class="address">
+                            <p>Beltsville Community Center 3900 Sellman Road Beltsville, Maryland 20705</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- topbar section end -->
+
+
+
+
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo/logo.png" alt="Logo">
+            </div>
+
+            <!-- Offcanvas Trigger for smaller screens -->
+            <a data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar"
+                class="d-lg-none">
+                <!-- Hamburger Icon SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+                    <g>
+                        <path
+                            d="M128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6S500.538 128 486.4 128H153.6c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128H25.6C11.462 230.4 0 241.863 0 256c0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6H256c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z"
+                            fill="#5C727D"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <!-- Main Navigation for larger screens -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-4" href="#" id="mobileServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="drop_down">
+                            <li class="mb-3"><a href="what-is-Judo.html"> <i class="fa-solid fa-arrow-right"></i> What
+                                    is Judo</a></li>
+                            <li class="mb-3"><a href="#"> <i class="fa-solid fa-arrow-right"></i> Beginner Info
+                                    Packet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic
+                                    Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One
+                                    Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to
+                                    judo</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar section start -->
+
+    <!-- Offcanvas section start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="assets/images/logo/logo.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-5" href="#" id="mobileServicesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="drop_down">
+                        <li class="mb-3"><a href="what-is-Judo.html"><i class="fa-solid fa-arrow-right"></i> What is
+                                Judo</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Info Packet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic Sheet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One Sheet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to judo</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Offcanvas section end -->
+
+
+    <!-- about-banner start -->
+    <div class="about-banner-section position-relative">
+        <div class="banner-img ">
+            <img src="assets/images/banner/banner.png" alt="">
+        </div>
+
+        <div class="about-bannner-tittle">
+            <h3>Kota</h3>
+        </div>
+    </div>
+
+    <!-- about-banner end -->
+
+
+
+
+
+    <div class="kota-info-section mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4">
+                    <div class="kota-tittle">
+                        <h4 class="mb-4">Kata</h4>
+                        <p>Kata is a valuable training tool in judo. The founder of judo, Jigaro Kano, developed the
+                            katas
+                            to demonstrate the fundamental principles of judo and to provide a type of training in which
+                            students could examine techniques under ideal circumstances. Kata can be thought of, as the
+                            grammar of judo and the study of it can only enhance your detailed knowledge of techniques
+                            and
+                            the principles of judo. A fasinating part about the study of kata, is there is so much to
+                            learn
+                            and the more knowledge you attain, the more interesting it becomes. “If judo was just about
+                            winning competitions and medals, it would be merely a sport. Jigoro Kano envisaged judo as a
+                            “michi” (or a way of life). A person well past contesting age, or who indeed has never been
+                            interested in the competitive side of judo can, by studying judo kata, find a fulfilling
+                            study,
+                            both physically and mentally” (Essential Judo Katas 2003).</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="kota-img text-center mb-4">
+                        <img src="assets/images/kota/img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="kota-link-section">
+        <div class="container">
+
+
+            <div class="kota-link-box">
+                <div class="kota-link-box-tittle text-center">
+                    <h5><a href="#">1. Nage-no-Kata (Forms of Throwing)</a></h5>
+                    <p>Three representative techniques are chosen from each of five Nage-wazas: Te-waza, Koshi-waza,
+                        Ashi-waza, Ma-sutemi-waza and Yoko-sutemi-waza.
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex align-items-center">
+                                <p class="mb-0"><a href="#">Nage-no-Kata-1</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">Nage No Kata Beginning Info</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">Nage No Kata General Comments</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">Nage no kata study 1</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">Nage no Kata picts and expla</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">nage-no-kata std – Saito1</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">nage-no-kata std – Saito1</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">Nage no Kata</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="kota-item-link d-flex">
+                                <p><a href="#">USJI Nage No Kata guidelines</a></p>
+                                <a href="#" class="ms-3"><span><i class="fa-solid fa-file-arrow-down"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">2. Katame-no-Kata (Forms of Grappling or Holding)</a></h5>
+                        <p class="mb-4">Five model techniques are chosen from each of three Katame-wazas: Osaekomi-waza,
+                            Shime-waza and Kansetsu-waza.</p>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">katame no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Katame No Kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Katame-no-kata-combo-US-and-2015-IJF-stds-clean-copy</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">3. Kime-no-Kata (Forms of Decisive techniques)</a></h5>
+                        <p class="mb-4">This is to learn the techniques for serious combative fight. It consists of the
+                            techniques in a kneeling position (Idori, 8 techniques) and in a standing position (Tachiai,
+                            12
+                            techniques). </p>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">USJI Kime No Kata guidelines</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Kime No Kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">kime no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">kime-no-kata-combo-US-and-2015-IJF-stds-clean-copy</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">4. Ju-no-Kata (Forms of Gentleness & Flexibility)</a></h5>
+                        <p class="mb-4">This is an expressive, gymnastic composition of the methods of attack and
+                            defense in
+                            a series of slow and moderate actions. It consists of three components, Dai-ikkyo (Set 1),
+                            Dai-nikyo (Set 2) and Dai-sankyo (Set 3), each of them has five techniques. </p>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">USJI Ju No Kata guidelines</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">ju no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Ju No Kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Ju-no-kata-combo-US-and-2015-IJF-stds-working-copy</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">5. Kodokan Goshin-jutsu (Forms of Kodokan Self-Defense) </a></h5>
+                        <p class="mb-4">This consists of an “Unarmed section” and a “Weapons section”. The “Unarmed
+                            section”
+                            consists of twelve techniques while the “Weapons section” consists of nine techniques. </p>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Goshinjitsu-combo-US-and-2015-IJF-stds-clean-copy</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">goshin jutsu</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">ju no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">6. Itsutsu-no-Kata (Forms of “Five”)</a></h5>
+                        <p class="mb-4">These forms express the mechanism of attack and defense in an elevated way. It
+                            consists of five sequences of movements that artistically express the power of nature.</p>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">USJI Itsutsu No Kata guidelines</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">itsutsu no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">Itsutsu no kata -Kodokan Judo textbook-2010</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">itsutsu no kata by Noboro Saito</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="main-box">
+                        <h5 class="mt-4"><a href="#">7. Koshiki-no-Kata (Forms of Classics)</a></h5>
+                        <p class="mb-4">Kano Shihan highly evaluated the forms of Kito-ryu Jujutsu as they represent the
+                            essence of attack and defense. Therefore, he left the forms as Kodokan Koshiki-no-Kata, with
+                            little changes. It consists of 14 Omote (front) techniques and 7 Ura (back) techniques.</p>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">USJI Koshihi No Kata guidelines</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <div class="kota-item-link d-flex">
+                                    <p><a href="#">koshihi no kata</a></p>
+                                    <a href="#" class="ms-3"><span><i
+                                                class="fa-solid fa-file-arrow-down"></i></span></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- footer-section-start -->
+
+        <div class="footer-section mt-5">
+            <div class="footer-img">
+                <img src="assets/images/footer/img.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 d-flex flex-column ">
+                        <div class="footer-logo">
+                            <img src="assets/images/logo/img2.png" alt="">
+                        </div>
+
+                        <div class="footer-ion mt-5 d-flex mb-5">
+                            <span class="mx-2"><i class="fa-brands fa-facebook-f"></i></span>
+                            <span class="mx-2"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="mx-2"><i class="fa-brands fa-x-twitter"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-tittle">
+                            <h5 class="mb-4">Company</h5>
+                            <p><a href="">Home</a></p>
+                            <p><a href="">About Us</a></p>
+                            <p><a href="">Our Team</a></p>
+                            <p><a href="">Events</a></p>
+                            <p><a href="">Resources</a></p>
+                            <p><a href="">Kata</a></p>
+                            <p><a href="">Gallery</a></p>
+                            <p><a href="">News Flash</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-tittle">
+                            <h5 class="mb-4">Useful Link</h5>
+
+                            <li class="mb-2"><a href="">MNCPPC</a></li>
+                            <li class="mb-2"><a href="">Maryland Judo, Inc.</a></li>
+                            <li class="mb-2"><a href="">Shufu Yudanshakai</a></li>
+                            <li class="mb-2"><a href="">USJF = US Judo Federation</a></li>
+                            <li class="mb-2"><a href="">USJA = US Judo Association</a></li>
+                            <li class="mb-2"><a href="">USJI = USA Judo, Inc</a></li>
+                            <li class="mb-2"><a href="">PJU = PanAmerican Judo Union</a></li>
+                            <li class="mb-2"><a href="">PJC = PanAmerican Judo Confederation</a></li>
+                            <li class="mb-2"><a href="">IJF = International Judo Federation</a></li>
+                            <li class="mb-2"><a href="">The Kodokan Judo Institute</a></li>
+                            <!-- <li class="mb-2"><a href="">The Olympic Games</a></li>
+                        <li class="mb-2"><a href="">The Paralympic Games</a></li>
+                        <li class="mb-2"><a href="">Future Paralympians</a></li>
+                        <li class="mb-2"><a href="">The Judo Information Site</a></li> -->
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="footer-tittle">
+                            <h5 class="mb-5">Contact Us</h5>
+                            <div class="footer-icon mb-5 d-flex">
+                                <div class="icon"> <span><i class="fa-solid fa-phone"></i></span></div>
+                                <div class="contact-link"><a href="">703-622-6861</a></div>
+                            </div>
+                            <div class="footer-icon mb-5 d-flex">
+                                <div class="icon"> <span><i class="fa-solid fa-envelope"></i></span></div>
+                                <div class="contact-link"><a href="">huiosensei@gmail.com</a></div>
+                            </div>
+                            <div class="footer-icon mb-5 d-flex">
+                                <div class="icon"> <span><i class="fa-solid fa-location-dot"></i></span></div>
+                                <div class="contact-link"><a href="">Beltsville Community Center<br> 3900 Sellman
+                                        Road<br>
+                                        Beltsville, Maryland 20705</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr footer-line>
+                <div class="company-name">
+                    <p class="text-center"><a href="">2024 @ Copyright All rights reserved | Developed by Webpristine
+                            Technologies</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer-section-end -->
+
+
+
+
+
+
+
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Jquery js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- Owl js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- FancyBox JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+        <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

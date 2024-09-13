@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <title>News Flash</title>
+</head>
+
+<body>
+
+
+
+    <!-- topbar section start -->
+
+    <div class="topbar-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-2 d-flex justify-content-center justify-content-lg-start">
+                    <div class="topbar-logo">
+                        <img src="assets/images/logo/logo.png" alt="Logo">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="tel:703-622-6861">703-622-6861</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="mailto:huiosensei@gmail.com">huiosensei@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="topbar-address d-flex justify-content-center justify-content-lg-end align-items-center">
+                        <div class="topbar-link-icon">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                        <div class="address">
+                            <p>Beltsville Community Center 3900 Sellman Road Beltsville, Maryland 20705</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- topbar section end -->
+
+
+
+
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo/logo.png" alt="Logo">
+            </div>
+
+            <!-- Offcanvas Trigger for smaller screens -->
+            <a data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar"
+                class="d-lg-none">
+                <!-- Hamburger Icon SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+                    <g>
+                        <path
+                            d="M128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6S500.538 128 486.4 128H153.6c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128H25.6C11.462 230.4 0 241.863 0 256c0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6H256c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z"
+                            fill="#5C727D"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <!-- Main Navigation for larger screens -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-4" href="#" id="mobileServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="drop_down">
+                            <li class="mb-3"><a href="what-is-Judo.html"> <i class="fa-solid fa-arrow-right"></i> What
+                                    is Judo</a></li>
+                            <li class="mb-3"><a href="#"> <i class="fa-solid fa-arrow-right"></i> Beginner Info
+                                    Packet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic
+                                    Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One
+                                    Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a>
+                            </li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to
+                                    judo</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar section start -->
+
+    <!-- Offcanvas section start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="assets/images/logo/logo.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-5" href="#" id="mobileServicesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="drop_down">
+                        <li class="mb-3"><a href="what-is-Judo.html"><i class="fa-solid fa-arrow-right"></i> What is
+                                Judo</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Info Packet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic Sheet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One Sheet</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to judo</a>
+                        </li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Offcanvas section end -->
+
+
+    <!-- about-banner start -->
+    <div class="about-banner-section position-relative">
+        <div class="banner-img ">
+            <img src="assets/images/banner/banner.png" alt="">
+        </div>
+
+        <div class="about-bannner-tittle">
+            <h3>News Flash</h3>
+        </div>
+    </div>
+
+    <!-- about-banner end -->
+
+
+
+    <div class="new-section-start mt-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="news-box-card card h-100">
+                        <img src="assets/images/news/img1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="news-box-card-body">
+                            <h5 class="news-box-card-title mt-2"><a href="">Judo Rules Clinic</a></h5>
+                            <p class="news-box-card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="news-box-card card h-100">
+                        <img src="assets/images/news/img1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="news-box-card-body">
+                            <h5 class="news-box-card-title mt-2"><a href="">AM-CAN Challenge scheduled for May 23-24 in
+                                    Niagara
+                                    falls NY</a></h5>
+                            <p class="news-box-card-text">AM-CAN Challenge scheduled for May 23-24 in Niagara falls NY
+                                has been cancelled for this year. Please plan to attend in 2021.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="news-box-card card h-100">
+                        <img src="assets/images/news/img1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="news-box-card-body">
+                            <h5 class="news-box-card-title mt-2"><a href="">USA Judo Senior National judo
+                                    Championships</a></h5>
+                            <p class="news-box-card-text">USA Judo Senior National judo Championships scheduled for May
+                                16-17 in Dayton Beach Fl has Been postponed - No new date has been set until after the
+                                pandemic is cleared.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="news-box-card card h-100">
+                        <img src="assets/images/news/img1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="news-box-card-body">
+                            <h5 class="news-box-card-title mt-2"><a href="">Pedro Challenge Tournament scheduled for May
+                                    2 has been Cancelled</a></h5>
+                            <p class="news-box-card-text">Pedro Challenge Tournament scheduled for May 2 has been
+                                Cancelled.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="news-box-card card h-100">
+                        <img src="assets/images/news/img1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="news-box-card-body">
+                            <h5 class="news-box-card-title mt-2"><a href="">Kodokan Instructor, Sensei Murata 8th Dan,
+                                    Dies</a></h5>
+                            <p class="news-box-card-text">-Kodokan Instructor, Sensei Murata 8th Dan, Dies, It is with
+                                great sadness that I make this announcement. On April 9, 2020 Kodokan master instructor,
+                                Sensei Murata, 8th Dan, passed away from complications with his heart. He was living in
+                                Japan.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer-section-start -->
+    <div class="footer-section mt-5">
+        <div class="footer-img">
+            <img src="assets/images/footer/img.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-flex flex-column ">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo/img2.png" alt="">
+                    </div>
+
+                    <div class="footer-ion mt-5 d-flex mb-5">
+                        <span class="mx-2"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="mx-2"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="mx-2"><i class="fa-brands fa-x-twitter"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-tittle">
+                        <h5 class="mb-4">Company</h5>
+                        <p><a href="">Home</a></p>
+                        <p><a href="">About Us</a></p>
+                        <p><a href="">Our Team</a></p>
+                        <p><a href="">Events</a></p>
+                        <p><a href="">Resources</a></p>
+                        <p><a href="">Kata</a></p>
+                        <p><a href="">Gallery</a></p>
+                        <p><a href="">News Flash</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-tittle">
+                        <h5 class="mb-4">Useful Link</h5>
+
+                        <li class="mb-2"><a href="">MNCPPC</a></li>
+                        <li class="mb-2"><a href="">Maryland Judo, Inc.</a></li>
+                        <li class="mb-2"><a href="">Shufu Yudanshakai</a></li>
+                        <li class="mb-2"><a href="">USJF = US Judo Federation</a></li>
+                        <li class="mb-2"><a href="">USJA = US Judo Association</a></li>
+                        <li class="mb-2"><a href="">USJI = USA Judo, Inc</a></li>
+                        <li class="mb-2"><a href="">PJU = PanAmerican Judo Union</a></li>
+                        <li class="mb-2"><a href="">PJC = PanAmerican Judo Confederation</a></li>
+                        <li class="mb-2"><a href="">IJF = International Judo Federation</a></li>
+                        <li class="mb-2"><a href="">The Kodokan Judo Institute</a></li>
+                        <!-- <li class="mb-2"><a href="">The Olympic Games</a></li>
+                        <li class="mb-2"><a href="">The Paralympic Games</a></li>
+                        <li class="mb-2"><a href="">Future Paralympians</a></li>
+                        <li class="mb-2"><a href="">The Judo Information Site</a></li> -->
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-tittle">
+                        <h5 class="mb-5">Contact Us</h5>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-phone"></i></span></div>
+                            <div class="contact-link"><a href="">703-622-6861</a></div>
+                        </div>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-envelope"></i></span></div>
+                            <div class="contact-link"><a href="">huiosensei@gmail.com</a></div>
+                        </div>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-location-dot"></i></span></div>
+                            <div class="contact-link"><a href="">Beltsville Community Center<br> 3900 Sellman Road<br>
+                                    Beltsville, Maryland 20705</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr footer-line>
+            <div class="company-name">
+                <p class="text-center"><a href="">2024 @ Copyright All rights reserved | Developed by Webpristine
+                        Technologies</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section-end -->
+
+
+
+
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Owl js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- FancyBox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

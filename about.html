@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+      <!-- FancyBox CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <title>about-us</title>
+</head>
+
+<body>
+
+
+
+    <!-- topbar section start -->
+
+    <div class="topbar-section">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-2 d-flex justify-content-center justify-content-lg-start">
+                    <div class="topbar-logo">
+                        <img src="assets/images/logo/logo.png" alt="Logo">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="tel:703-622-6861">703-622-6861</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="topbar-link-icon">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                    <div class="topbar-link">
+                        <p><a href="mailto:huiosensei@gmail.com">huiosensei@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="topbar-address d-flex justify-content-center justify-content-lg-end align-items-center">
+                        <div class="topbar-link-icon">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                        <div class="address">
+                            <p>Beltsville Community Center 3900 Sellman Road Beltsville, Maryland 20705</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- topbar section end -->
+
+
+    <!-- navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo/logo.png" alt="Logo">
+            </div>
+
+            <!-- Offcanvas Trigger for smaller screens -->
+            <a data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar"
+                class="d-lg-none">
+                <!-- Hamburger Icon SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 512">
+                    <g>
+                        <path
+                            d="M128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6S500.538 128 486.4 128H153.6c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128H25.6C11.462 230.4 0 241.863 0 256c0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6H256c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z"
+                            fill="#5C727D"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <!-- Main Navigation for larger screens -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                    </li>
+                
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-4" href="#" id="mobileServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="drop_down">
+                            <li class="mb-3"><a href="what-is-Judo.html"> <i class="fa-solid fa-arrow-right"></i> What is Judo</a></li>
+                            <li class="mb-3"><a href="#"> <i class="fa-solid fa-arrow-right"></i> Beginner Info Packet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One Sheet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to judo</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                            <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar section start -->
+
+    <!-- Offcanvas section start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="assets/images/logo/logo.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active me-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="team.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="event.html">Events</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-5" href="#" id="mobileServicesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="drop_down">
+                        <li class="mb-3"><a href="what-is-Judo.html"><i class="fa-solid fa-arrow-right"></i> What is Judo</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Info Packet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Beginner Basic Sheet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Study Guide</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O kids One Sheet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Hui-O Trifold 2020</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo for Children</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Judo Gi booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Parent Guide to judo</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Shesei Booklet</a></li>
+                        <li class="mb-3"><a href="#"><i class="fa-solid fa-arrow-right"></i> Welcome to Judo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="kota.html">Kata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="news.html">News Flash</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Offcanvas section end -->
+
+
+    <!-- about-banner start -->
+    <div class="about-banner-section position-relative">
+        <div class="banner-img ">
+            <img src="assets/images/banner/banner.png" alt="">
+        </div>
+
+        <div class="about-bannner-tittle">
+            <h3>About-us</h3>
+        </div>
+    </div>
+
+    <!-- about-banner end -->
+
+
+    <div class="about-info-section mt-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-8">
+                    <div class="main-info">
+                        <h4 class="mb-4">About Us</h4>
+                        <p>Hui-O-Judo welcomes you to come join us to begin and enhance your judo knowledge and
+                            development. We teach both competitive and recreational judo, as well a s strong focus on
+                            the katas of the Kodokan. </p>
+                        <p>Hui-O-Judo, which is Hawaiian meaning “club of the gentle way”, was founded by Sensei Kenneth
+                            Tamai. He trained each judoka based on the principles and morals established by Dr. Jigoro
+                            Kano, the founder of judo. Judo’s aim help each person develop into the best person they can
+                            be.</p>
+                        <p>It is the mission of Hui-O-Judo instructors and judoka is to teach you to love learning judo.
+                            It is a lifetime of learning. We aim to provide a nurturing place of trust, integrity,
+                            fellowship, cooperation and respect for others. We provide the opportunity for each person
+                            to learn and grow physically, mentally, emotionally, and spiritually while learning the
+                            skills, techniques, confidence and discipline needed to become a great judoka while helping
+                            to maximize their personal potential and contribute to society. </p>
+                        <p>Hui-O-Judo, which is Hawaiian meaning “club of judo”, was founded by Sensei Kenneth Tamai in
+                            Berwyn Heights, Maryland in 1968 as a family dojo to teach both competitive and recreational
+                            judo to students of all ages (juniors and seniors, ages 5 and older). Sensei Tamai taught
+                            judo for the development of the students. He trained each judoka based on the principle and
+                            morals established by Dr. Jigoro Kano in the formation of Judo. Seiryoku zen yo – Maximum
+                            efficiency with minimum effort, which is the best use of all of our energies. Jita kyoei –
+                            mutual welfare and benefit. We have an environment where everyone learns, grows and develops
+                            together to make a better world. Judo’s aim is to develop character of each person and help
+                            them develop into the best person they can be.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="about-imgd-flex justify-content-center mb-4">
+                        <img src="assets/images/about-page/img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="about-info">
+                <p>Hui-O-Judo developed and grew through the 1970’s. The club captured its first team trophy (junior
+                    division) in 1976 at the Eastern Invitational held at the Police Academy in Washington, DC. The
+                    junior team successfully defended the team title in 1977 and 1978. A junior team comprising Karl
+                    Tamai, Robert Fetrow, Kevin Tamai, Chang Cho, and Billy Veater placed second in a five-man team
+                    competition at the Jamie Tower’s Invitational in New York City in 1979.</p>
+                <p>Hui-O-Judo outgrew the Berwyn Heights dojo in 1980, and relocated to the current dojo at the
+                    Beltsville Community Center. Working with MNCPPC, Hui-O was able to host a large variety regional
+                    clinics and tournaments for Shufu Yudanshakai. Sensei Tamai continually acquired new mats to provide
+                    for the continued growth in the club. Sensei Tamai coached the Shufu Female Youth Team to a USJF
+                    national title in 1991 and a second place finish in 1997. The Shufu Male Youth Team had a strong
+                    showing in 1997 placing third. Hui-O-Judo has maintained a presence in area throughout the 1990’s by
+                    capturing the senior team trophy at the Beltsville Invitational in 1993 and 1997. The club often won
+                    both the junior and senior team trophies at many events they participated in. In 2000 and 2001,
+                    Hui-O-Judo Beltsville became a leading judo team the Washington Area by taking the team award
+                    championship honors at the Shufu Open Championships, Beltsville Spring Open, Eastern Open
+                    Championships, Beltsville Fall Championships, Maryland State Championships and the Virginia State
+                    Championships.</p>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="info-img mb-4">
+                                <img src="assets/images/about-page/img3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="info-img mb-4">
+                                <img src="assets/images/about-page/img2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Sensei Tamai, in cooperation with the Maryland National Capital Park and Planning Commission, has
+                    continued to host most of the regional tournaments and clinics in the DC area since 1981. Through
+                    his commitment to the judoka in the area, he hosted at least one clinic or tournament a month at the
+                    Beltsville location. He ensures that judo is accessible to everyone by keeping the cost of
+                    tournaments and clinics very low. He helped to develop interest in the sport of judo in the area.
+                </p>
+                <p>In 2000, two of his sons, Kurt and Karl opened another club close by. College Park Judo is run in
+                    cooperation with MNCPPC. They produce top competitive judoka as well as recreational judoka in a
+                    family atmosphere.</p>
+                <p>Hui-O-Judo was the third dojo in the country to be elevated to the United States Judo Federation 5
+                    Star dojo. College Park Judo was the 6th dojo to be distinguished. The program is to recognize those
+                    dojos that demonstrate excellence in Judo by having within their membership the following
+                    certifications: USJF Teacher or Assistant Teacher certification; USJF National Coach, Bronze,
+                    Silver, Gold, Master or Elite National Coach certification; USJF or USA Judo Referee certification
+                    at local, regional, national or international level; USJF Kata certification A, B, or C in nage no
+                    kata, katame no kata, ju no kata, kime no kata, goshin jutsu, itsutsu no kata or koshiki no kata;
+                    Special activities including clinics, judo camps or tournaments.</p>
+                <p>Sensei Tamai passed away in 2004. Three of his children, Kevin, Diane and Margie continue to lead
+                    Hui-O-Judo. The senseis at the dojo have over 300 years of combined judo knowledge. Kevin and Kurt
+                    continue to run tournaments and clinics under both USA Judo and USJF. They also run two premiere
+                    events, the Maryland State Championships and the Ken Tamai Memorial Judo Championships. Diane and
+                    Karl are both National A referees and are part of the Team USA World Kata Team. They have won
+                    countless national titles. Kurt has two boys on the Team USA Pan American World Team.</p>
+                <p>It is the mission of Hui-O-Judo instructors and judoka is to teach you to love learning judo. It is a
+                    lifetime of learning, not a race to a rank. We aim to provide a nurturing place of trust, integrity,
+                    fellowship, cooperation and respect for others. We provide the opportunity for each person to learn
+                    and grow physically, mentally, emotionally, and spiritually while learning the skills, techniques,
+                    confidence and discipline needed to become responsible and independent , to maximize their personal
+                    potential and contribute to society.</p>
+                <p>We welcome you to come visit us at the Beltsville Community Center any Tuesday or Thursday evening
+                    between 7 and 9pm or contact us with any questions you may have</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer-section-start -->
+    <div class="footer-section mt-5">
+        <div class="footer-img">
+            <img src="assets/images/footer/img.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-flex flex-column ">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo/img2.png" alt="">
+                    </div>
+
+                    <div class="footer-ion mt-5 d-flex mb-5">
+                        <span class="mx-2"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="mx-2"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="mx-2"><i class="fa-brands fa-x-twitter"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-tittle">
+                        <h5 class="mb-4">Company</h5>
+                        <p><a href="">Home</a></p>
+                        <p><a href="">About Us</a></p>
+                        <p><a href="">Our Team</a></p>
+                        <p><a href="">Events</a></p>
+                        <p><a href="">Resources</a></p>
+                        <p><a href="">Kata</a></p>
+                        <p><a href="">Gallery</a></p>
+                        <p><a href="">News Flash</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-tittle">
+                        <h5 class="mb-4">Useful Link</h5>
+
+                        <li class="mb-2"><a href="">MNCPPC</a></li>
+                        <li class="mb-2"><a href="">Maryland Judo, Inc.</a></li>
+                        <li class="mb-2"><a href="">Shufu Yudanshakai</a></li>
+                        <li class="mb-2"><a href="">USJF = US Judo Federation</a></li>
+                        <li class="mb-2"><a href="">USJA = US Judo Association</a></li>
+                        <li class="mb-2"><a href="">USJI = USA Judo, Inc</a></li>
+                        <li class="mb-2"><a href="">PJU = PanAmerican Judo Union</a></li>
+                        <li class="mb-2"><a href="">PJC = PanAmerican Judo Confederation</a></li>
+                        <li class="mb-2"><a href="">IJF = International Judo Federation</a></li>
+                        <li class="mb-2"><a href="">The Kodokan Judo Institute</a></li>
+                        <!-- <li class="mb-2"><a href="">The Olympic Games</a></li>
+                        <li class="mb-2"><a href="">The Paralympic Games</a></li>
+                        <li class="mb-2"><a href="">Future Paralympians</a></li>
+                        <li class="mb-2"><a href="">The Judo Information Site</a></li> -->
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-tittle">
+                        <h5 class="mb-5">Contact Us</h5>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-phone"></i></span></div>
+                            <div class="contact-link"><a href="">703-622-6861</a></div>
+                        </div>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-envelope"></i></span></div>
+                            <div class="contact-link"><a href="">huiosensei@gmail.com</a></div>
+                        </div>
+                        <div class="footer-icon mb-5 d-flex">
+                            <div class="icon"> <span><i class="fa-solid fa-location-dot"></i></span></div>
+                            <div class="contact-link"><a href="">Beltsville Community Center<br> 3900 Sellman Road<br>
+                                    Beltsville, Maryland 20705</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr footer-line>
+            <div class="company-name">
+                <p class="text-center"><a href="">2024 @ Copyright All rights reserved | Developed by Webpristine
+                        Technologies</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section-end -->
+
+
+
+
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Owl js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- FancyBox JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

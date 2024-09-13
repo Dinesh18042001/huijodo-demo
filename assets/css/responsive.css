@@ -1,0 +1,92 @@
+
+@media(max-width:991px){
+     .topbar-section{
+        display: none;
+    } 
+}
+
+/* navbar section start */
+
+
+@media(max-width:991px){
+    .navbar .logo img{
+        display: block;
+    } 
+}
+/* navbar section end */
+
+
+
+
+/* banner section start */
+
+@media(max-width:991px){
+    .banner-section .container .banner-text h5{
+        font-size: 20px;
+    } 
+    .banner-section .container .banner-text h1{
+        font-size: 30px;
+    }
+}
+
+/* banner section end */
+
+
+@media(max-width:991px){
+    .about-section .about-row{
+    flex-direction: column-reverse;
+}
+}
+
+
+
+
+@media(max-width:991px){
+    .team-section .owl-theme .owl-nav{
+       display: none;
+    } 
+}
+
+
+/* Events section start */
+
+@media(max-width:991px) {
+    .event-section  {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:576px) {
+    .event-section .container {
+        top: 51% !important;
+        left: 50% !important;
+    }
+}
+@media(max-width:991px) {
+    .event-section .container {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media(max-width:991px) {
+    .event-section .event-bg img{
+      height: 1100px !important;
+    }
+}
+
+@media(max-width:576px) {
+    .event-section .event-bg img{
+      height: 1500px !important;
+    }
+}
+
+
+/* about-bannner */
+@media(max-width:576px){
+    .about-bannner-tittle h3{
+        font-size: 25px;
+    }
+}
+
+
