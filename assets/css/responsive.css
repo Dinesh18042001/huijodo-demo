@@ -90,3 +90,39 @@
 }
 
 
+
+@media(max-width: 576px) {
+    .team-section .team-section-tittle h5 {
+        font-size: 18px !important;
+    }
+
+    .team-section .team-section-tittle h2 {
+        font-size: 25px !important;
+    }
+}
+
+
+
+@media(max-width:991px) {
+    .gallery-section .owl-theme .owl-nav {
+        display: none;
+    }
+}
+
+
+@media(max-width:991px) {
+    .gallery-section .owl-theme .owl-dots {
+        position: absolute;
+        bottom: -63px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media(max-width:991px) {
+    .footer-section .footer-img img {
+        height: 1500px !important;
+    }
+}
+
